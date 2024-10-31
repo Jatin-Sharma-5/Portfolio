@@ -29,7 +29,7 @@ function ProjectsSection() {
             <div className='flex justify-between' style={{width:'100%'}}>
                 <div className='project-details'>
                     <div className='project-name'>Take a Trip</div>
-                    <div className='project-link'>elitetailors.in</div>
+                    <div className='project-link'> <Link to='https://elitetailors.in'>elitetailors.in</Link></div>
                 </div>
                 <div className='project-role'>Full Stack Developer</div>
             </div>
