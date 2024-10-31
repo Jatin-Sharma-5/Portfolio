@@ -1,16 +1,14 @@
 import React from 'react'
 import Tilttext from '../components/Tilttext'
 import Header from '../components/Header'
+import "./Pages.css"
+import LandingSection from '../components/LandingSection/LandingSection'
 
 const Home = () => {
-    const mouseMoving =(e) =>{
-        console.log('mouse is moving')
-
-    }
   return (
-    <div onMouseMove={(e)=>{mouseMoving(e)}} className='h-screen bg-black' >
+    <div className='h-screen bg-black page-wrapper' >
       <Header/>
-        <Tilttext/>
+      <LandingSection/>
       
     </div>
   )

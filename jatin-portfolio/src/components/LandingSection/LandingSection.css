@@ -1,0 +1,26 @@
+.landing-section-wrapper{
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.landing-section-headline{
+    font-size: 50px;
+    color: white !important;
+    font-weight: 600;
+}
+.landing-section-tag-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.landing-section-tag{
+    border: 1px solid rgb(146, 146, 146);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(195, 195, 195);;
+}

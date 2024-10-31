@@ -1,0 +1,33 @@
+.header-wrapper{
+    flex-wrap: wrap;
+}
+.profile-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.profile-picture{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.profile-name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.profile-title{
+    font-size: 14px;
+    color: #cecece;
+}
+.header-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s ease;
+}
+.header-link:hover{
+    color: rgb(186, 186, 186);
+}
