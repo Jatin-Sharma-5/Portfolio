@@ -3,6 +3,7 @@
     flex-direction: column;
     color: white;
     padding: 0px 20px;
+    box-sizing: border-box;
 }
 .project-container{
     display: flex;
@@ -19,6 +20,7 @@
 }
 .project-role{
     align-content:center;
+    text-align: center;
 }
 .project-link{
     color: rgb(186, 186, 186);
