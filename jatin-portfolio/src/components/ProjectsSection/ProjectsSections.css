@@ -8,6 +8,9 @@
     padding: 20px 10px;
     height: 120px;
 }
+.project-container:hover{
+    background-color: #0d0d0d;
+}
 .project-timeline{
     width: 200px;
     align-content: center;

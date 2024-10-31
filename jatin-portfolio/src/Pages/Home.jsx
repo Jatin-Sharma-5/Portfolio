@@ -1,9 +1,9 @@
 import React from 'react'
-import Tilttext from '../components/Tilttext'
 import Header from '../components/Header'
 import "./Pages.css"
 import LandingSection from '../components/LandingSection/LandingSection'
 import ProjectsSection from '../components/ProjectsSection/ProjectsSection'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -11,7 +11,11 @@ const Home = () => {
       <Header/>
       <LandingSection/>
       <ProjectsSection/>
-      
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <Footer/>
     </div>
   )
 }
