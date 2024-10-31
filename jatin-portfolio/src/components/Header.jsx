@@ -23,7 +23,7 @@ const Header = () => {
       </div>
       <nav className="flex space-x-8 text-left font-light">
         <Link className="header-link">Contact <GoArrowUpRight size={20}/></Link>
-        <Link className="header-link">Resume <GoArrowUpRight size={20}/></Link>
+        <Link className="header-link" to='/resume'>Resume <GoArrowUpRight size={20}/></Link>
         <Link className="header-link">LinkedIn <GoArrowUpRight size={20}/></Link>
         <Link className="header-link">Github <GoArrowUpRight size={20}/></Link>
       </nav>
