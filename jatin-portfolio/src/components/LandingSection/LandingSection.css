@@ -24,3 +24,8 @@
     cursor: pointer;
     color: rgb(195, 195, 195);;
 }
+.landing-section-tag:hover{
+    background-color: #0071e3;
+    border: 1px solid  #0071e3;
+    color: white;
+}

@@ -3,6 +3,7 @@ import Tilttext from '../components/Tilttext'
 import Header from '../components/Header'
 import "./Pages.css"
 import LandingSection from '../components/LandingSection/LandingSection'
+import ProjectsSection from '../components/ProjectsSection/ProjectsSection'
 
 const Home = () => {
   return (
