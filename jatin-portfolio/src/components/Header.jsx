@@ -8,9 +8,7 @@ const Header = () => {
     <header className="bg-black text-white p-6 flex justify-between items-center header-wrapper">
       <div className="profile-wrapper">
         <div className="profile-picture"> </div>
-        <img src="../assets/Jatin.jpeg" alt="Jatin's Image" />
-
-       
+        <img src="../public/Jatin.jpeg" alt="Jatin's Image" />  
         <div className="profile-details-section">
             <div className="profile-name">Jatin Sharma</div>
             <div className="profile-title">Front-End Developer</div>
