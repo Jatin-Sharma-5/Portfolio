@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="bg-black text-white p-6 flex justify-between items-center header-wrapper">
       <div className="profile-wrapper">
-      <img src="../public/Jatin.jpeg" alt="Jatin's Image" className="profile-picture"/>  
+      <img src="../public/PF.png" alt="Jatin's Image" className="profile-picture"/>  
         <div className="profile-details-section">
             <div className="profile-name">Jatin Sharma</div>
             <div className="profile-title">Front-End Developer</div>
