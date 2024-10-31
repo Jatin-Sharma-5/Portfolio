@@ -10,6 +10,7 @@ const Home = () => {
     <div className='h-screen bg-black page-wrapper' >
       <Header/>
       <LandingSection/>
+      <ProjectsSection/>
       
     </div>
   )

@@ -1,0 +1,35 @@
+.projects-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.project-container{
+    display: flex;
+    padding: 20px 10px;
+    height: 120px;
+}
+.project-timeline{
+    width: 200px;
+    align-content: center;
+    color: rgb(186, 186, 186);
+}
+.project-role{
+    align-content: center;
+}
+.project-link{
+    color: rgb(186, 186, 186);
+}
+.project-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.project-name{
+    font-weight: 500;
+}
+.seaprator{
+    height: 1px;
+    border: 0px;
+    background-color: rgb(115, 115, 115);
+}
