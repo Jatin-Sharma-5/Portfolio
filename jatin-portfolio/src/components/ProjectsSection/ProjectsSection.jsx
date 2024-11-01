@@ -2,6 +2,7 @@ import React from 'react'
 import "./ProjectsSections.css"
 import { Link } from 'react-router-dom'
 import {delay, motion} from 'framer-motion'
+import Animatedicons from './Animatedicons'
 
 function ProjectsSection() {
     const LandingAnimation = {
@@ -46,6 +47,7 @@ function ProjectsSection() {
             </div>
         </Link>
         <hr className='seaprator'/>
+        <Animatedicons/>
     </motion.div>
   )
 }
